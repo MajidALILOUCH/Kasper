@@ -102,7 +102,7 @@ header .container {
   align-items: center;
   position: relative;
   color: white;
-  min-height: 97px; /*para que mantenga el height 96px cuando se ocultan los enlaces*/
+  min-height: 97px; /*para que mantenga el height 97px cuando se ocultan los enlaces*/
 }
 header .container::after {
   content: "";
