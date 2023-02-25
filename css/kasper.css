@@ -375,8 +375,12 @@ header nav .form i {
 }
 .portfolio .container .shuffle li {
   padding: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-right: 1px solid white;
 }
-.portfolio .container .shuffle .active {
+.portfolio .container .shuffle li.active,
+.portfolio .container .shuffle li:hover {
   background-color: var(--main-color);
   color: white;
 }
